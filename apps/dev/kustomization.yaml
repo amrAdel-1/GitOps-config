@@ -3,7 +3,8 @@ kind: Kustomization
 resources:
   - ../base
 namespace: dev
-namePrefix: dev-
+commonLabels:
+  app: dev-gitops-app
 patches:
   - patch: |-
       - op: replace
