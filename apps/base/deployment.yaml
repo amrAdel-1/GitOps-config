@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: gitops-app
-        image: amradel2002/gitops-app:0f08bc72febe87a7c4406918bf618562cf20853a
+        image: amradel2002/gitops-app:b1cce81acfda0d0345609b90eb6cd8f583ea9012
         resources:
           limits:
             memory: "128Mi"
